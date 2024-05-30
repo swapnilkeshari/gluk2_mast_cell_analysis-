@@ -1,0 +1,20 @@
+---
+x_path: /ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/slide_analysis/X_1k.csv
+y_path: /ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/slide_analysis/Y.csv
+out_path: /ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/slide_analysis/slide_runs/1k_features_deep/run_7
+delta:
+  - 0.01
+lambda:
+  - 1
+spec: 0.22
+y_factor: TRUE
+y_levels:
+  - -1
+  - 0
+  - 1
+eval_type: corr
+SLIDE_iter: 10000
+SLIDE_top_feats: 20
+CViter: 10
+sampleCV_K: 4
+do_interacts: TRUE
