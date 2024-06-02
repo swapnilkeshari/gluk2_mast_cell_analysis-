@@ -177,3 +177,23 @@ CV for  SLIDE . . .
       starting interaction selection . . . 
 [1] "Before doing interaction SLIDE"
 [1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2632      -0.9363       0.6582  
+
+  SLIDE model size:  1 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z5"  "z43"
