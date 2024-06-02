@@ -1,9 +1,7 @@
 library(readr)
 library(dplyr)
-library(rstudioapi)
 
-current_file_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(current_file_directory)
+setwd(".")
 ### Loading up DEG's and making list of common values ----
 TPM_YZ <- read_csv("/ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/Youran/02-03-2024-DE-Analysis/tpm_names.csv")
 TPM_SZ <- read_csv("/ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/Shiqun/02-03-2024-DE-Analysis/tpm_names.csv")
