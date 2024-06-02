@@ -37,9 +37,9 @@
 ## pathway_pvalueCutoff:  p-value cutoff for pathway analysis
 
 ## Overall project path
-proj_path: "/ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/Shiqun"
-dataDir: "/ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/Shiqun/mapped"
-metadataPath: "/ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/Shiqun/SZ_Shiqun.csv"
+proj_path: "../03_relevent_data_objects/01_transcriptome/MrgprgDdtr"
+dataDir: "../03_relevent_data_objects/01_transcriptome/MrgprgDdtr/mapped"
+metadataPath: "../03_relevent_data_objects/01_transcriptome/MrgprgDdtr.csv"
 ## Variables for sleuth (see above for details)
 skipLines: 0
 sampleCol: "sampleName"

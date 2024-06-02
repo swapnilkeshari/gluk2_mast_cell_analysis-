@@ -21,6 +21,7 @@ library(tidyverse)
 # flog.layout(layout.format("[%.Time%] %.Level%: %.Message%"))
 
 ### Load the configuration from the YAML file ----
+setwd(".") # Set working directory to the location of the script
 args <- commandArgs(trailingOnly = TRUE)
 configFilePath <- if(length(args) > 0) args[1] else stop("No YAML file path provided.")
 # configFilePath <- file.path("/ix/djishnu/Swapnil/kaplanAnalysis/final_analysis/Youran/config.yaml")

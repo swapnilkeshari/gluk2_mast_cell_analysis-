@@ -197,3 +197,334 @@ CV for  SLIDE_y . . .
       starting interaction selection . . . 
 [1] "Before doing interaction SLIDE"
 [1] "z5"  "z43"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "5"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)          `5`       Z5.Z43  
+    0.08538     -0.26859     -0.86773  
+
+[1] "43"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `43`  
+   0.004254    -0.356426  
+
+  SLIDE model size:  2 
+FOLD  4 . . . . 
+validation indices 4 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z32" "z48"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "32"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `32`       Z32.Z4      Z32.Z35      Z32.Z49  
+    -0.1143      -1.0470      -0.3643      -0.1603       0.4301  
+
+[1] "48"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `48`      Z48.Z16      Z48.Z32      Z48.Z45      Z48.Z47  
+    -5.9661     -26.6146       5.6950       2.2003       0.2571      -7.6193  
+
+  SLIDE model size:  2 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z24" "z37" "z43"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "24"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `24`      Z24.Z45  
+    -0.2503       0.3230       2.2778  
+
+[1] "37"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `37`  
+  -0.001492     0.277023  
+
+[1] "43"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `43`  
+   0.003946    -0.356758  
+
+  SLIDE model size:  3 
+FOLD  5 . . . . 
+validation indices 5 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z45  
+     0.4039       0.5108       0.5986  
+
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2615      -0.9362       0.6546  
+
+  SLIDE model size:  2 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z7"  "z16" "z43" "z48" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "7"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)          `7`       Z7.Z32       Z7.Z50       Z7.Z51  
+   0.464803     0.002105    -0.026246    -0.607493     0.493143  
+
+[1] "43"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `43`      Z43.Z50  
+    0.03412      0.35819      2.03569  
+
+[1] "50"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `50`      Z50.Z48  
+     0.1178      -0.3438       0.7696  
+
+  SLIDE model size:  3 
+FOLD  6 . . . . 
+validation indices 6 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2632      -0.9362       0.6573  
+
+  SLIDE model size:  1 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z24" "z33"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z24      Z18.Z43  
+    -0.2485       0.3525      -0.5121      -0.7232  
+
+[1] "33"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `33`  
+   0.007707    -0.336808  
+
+  SLIDE model size:  2 
+FOLD  7 . . . . 
+validation indices 7 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z45  
+     0.4063       0.5081       0.6016  
+
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2642      -0.9360       0.6579  
+
+  SLIDE model size:  2 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z1"  "z18" "z37" "z48"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z24      Z18.Z30      Z18.Z37  
+     0.0617      -0.4602       0.4666       0.2685      -0.6205  
+
+[1] "48"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `48`  
+    0.00437     -0.35959  
+
+  SLIDE model size:  2 
+FOLD  8 . . . . 
+validation indices 8 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z45  
+     0.4087       0.5054       0.6047  
+
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2680      -0.9360       0.6635  
+
+  SLIDE model size:  2 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z5"  "z24" "z43"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "5"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)          `5`       Z5.Z25       Z5.Z43  
+     0.2639      -0.5496      -0.3091      -0.9875  
+
+  SLIDE model size:  1 
+FOLD  9 . . . . 
+validation indices 9 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z29" "z45" "z50"

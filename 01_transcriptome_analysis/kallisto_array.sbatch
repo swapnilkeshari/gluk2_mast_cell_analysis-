@@ -1,10 +1,9 @@
 #!/bin/bash
-
 #SBATCH -t 1-00:00 # Runtime in D-HH:MM
 #SBATCH --job-name=kallisto_array
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=swk25@pitt.edu
-#SBATCH --array=0-23 # job array index. Please, change the max number. number of samples - 1
+#SBATCH --array=0-19 # job array index. Please, change the max number. number of samples - 1
 
 ## Loading kallisto module
 module purge
