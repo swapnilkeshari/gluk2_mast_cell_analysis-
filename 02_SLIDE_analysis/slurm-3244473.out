@@ -1,0 +1,179 @@
+
+Attaching package: ‘SLIDE’
+
+The following object is masked from ‘package:base’:
+
+    merge
+
+Loading required package: doParallel
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Running SLIDE cross validation for  ../03_relevent_data_objects/02_SLIDE/slide_runs/1k_features/0.01_1_out 
+
+Running SLIDE cross validation for  ../03_relevent_data_objects/02_SLIDE/slide_runs/1k_features/0.01_1_out 
+FOLD  1 . . . . 
+validation indices 1 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z45  
+     0.4317       0.4769       0.6353  
+
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2653      -0.9358       0.6586  
+
+  SLIDE model size:  2 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z24" "z37" "z43" "z48"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "24"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `24`  
+  -0.003773     0.240807  
+
+[1] "37"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `37`  
+   -0.00327      0.26041  
+
+[1] "43"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `43`  
+   0.004289    -0.358548  
+
+[1] "48"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `48`  
+   0.004224    -0.354894  
+
+  SLIDE model size:  4 
+FOLD  2 . . . . 
+validation indices 2 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "18"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `18`      Z18.Z45  
+     0.4040       0.5106       0.5988  
+
+[1] "45"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `45`      Z45.Z49  
+    -0.2684      -0.9358       0.6629  
+
+[1] "50"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `50`  
+    0.02125     -0.72578  
+
+  SLIDE model size:  3 
+CV for  SLIDE_y . . . 
+        using permuted y values 
+         final marginal spec: 0.22
+    no interaction terms . . . no marginals 
+    no interaction terms . . . no marginals 
+SLIDE selects no features - Randomly selecting 5 features. . . 
+      selecting marginal variables using method 6 . . . 
+      randomly picking marginals . . . 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] 36  8 32 42 43
+[1] "printing the yhat of each maginals..."
+NULL
+      running knockoffs on marginal/interaction submodels...
+[1] "upsilon colnames:"
+[1] "43"
+
+Call:
+stats::lm(formula = y ~ ., data = lin_reg_df)
+
+Coefficients:
+(Intercept)         `43`      Z43.Z51  
+   0.009797     0.240764    -2.078954  
+
+  SLIDE model size:  1 
+FOLD  3 . . . . 
+validation indices 3 
+CV for  SLIDE . . . 
+        using true y values 
+         final marginal spec: 0.22
+      starting interaction selection . . . 
+[1] "Before doing interaction SLIDE"
+[1] "z18" "z45" "z50"
