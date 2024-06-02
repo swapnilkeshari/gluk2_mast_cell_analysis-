@@ -9,5 +9,3 @@ module load gcc/12.2.0
 module load r/4.3.0
 # Requires path to yaml as input as argument 1
 Rscript sleuth_deg_ora.R $1
-# Wrapper for pitt crc cluster. Remove if not running on pitt crc
-crc-job-stats
