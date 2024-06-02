@@ -7,8 +7,9 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 #SBATCH --mem=512g
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=32 #### Need multiple cores for SLIDECV and high memory
 
 module load gcc/12.2.0
 module load r/4.3.0
-Rscript 02_runSLIDE.R "./slide.yaml"
+# Requires path to yaml as input as argument 1
+Rscript 02_runSLIDE.R $1

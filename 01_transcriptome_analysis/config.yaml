@@ -58,5 +58,5 @@ biomart: "ensembl"
 dataset: "mmusculus_gene_ensembl"
 ## Pathway analysis parameters
 runReactome: TRUE
-runKEGG: TRUE
+runKEGG: FALSE
 pathway_pvalueCutoff: 0.05
